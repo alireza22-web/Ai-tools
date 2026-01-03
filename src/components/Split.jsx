@@ -1,4 +1,4 @@
-import img from '../img/ai-robot.jpg'
+import img from '../../public/img/ai-robot.jpg'
 
 export function Split(){
   return (
@@ -7,6 +7,7 @@ export function Split(){
 
     <div className="relative rounded-3xl overflow-hidden">
       <img
+        loading='lazy'
         src={img}
         alt="AI Abstract"
         className="w-full h-105 object-cover"

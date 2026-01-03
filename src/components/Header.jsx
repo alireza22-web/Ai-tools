@@ -1,5 +1,5 @@
 import { Navbar } from "./Navbar";
-import img from '../img/big-bg-header.jpg'
+import img from '../../public/img/big-bg-header.jpg'
 import { Link } from "react-router-dom";
 import '../custom.css'
 

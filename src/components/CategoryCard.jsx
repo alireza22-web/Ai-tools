@@ -8,7 +8,7 @@ export function CategoryCard(){
         CategoryCardData.map((item,i)=>{
           return (
             <div key={i} className="bg-zinc-900 rounded-2xl overflow-hidden border border-fuchsia-500/20 shadow-lg shadow-fuchsia-500/10  transform transition duration-300 ease-in-out">
-                <img className="object-cover" src={item.image} alt={item.title} />
+                <img className="object-cover" loading="lazy" src={item.image} alt={item.title} />
                 <div className="p-1">
                   <div className="p-4">
                     <h3 className="text-white font-bold text-lg">{item.title}</h3>

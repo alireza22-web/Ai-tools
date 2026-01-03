@@ -1,7 +1,7 @@
-import imageposter from '../img/image.jpg'
-import textposter from '../img/text-ai.jpg'
-import videoposter from '../img/video-ai.jpg'
-import developerposter from '../img/developer-ai.jpg'
+import imageposter from '../../public/img/image.jpg'
+import textposter from '../../public/img/text-ai.jpg'
+import videoposter from '../../public/img/video-ai.jpg'
+import developerposter from '../../public/img/developer-ai.jpg'
 
 export const CategoryCardData = [
   {
