@@ -1,0 +1,31 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.font-inter{
+  font-family:'Inter';
+}
+
+.animate-t-b{
+  animation: ttb .8s ease-in;
+}
+
+@keyframes ttb{
+  0%{
+    transform: translateY(-100%);
+  }60%{
+    transform: translateY(0%);
+  }
+}
+
+.animate-opacity{
+  animation: opa 1.2s ease-in;
+}
+
+@keyframes opa{
+  0%{
+    opacity: 0;
+  }60%{
+    opacity: 1;
+  }
+}
